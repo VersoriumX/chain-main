@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gorilla/mux"
-	"github.com/rakyll/statik/fs"
+	"github.com/versoriumx/mux"
+	"github.com/versoriumx/statik/fs"
 
 	 "github.com/tendermint/tendermint/abci/types"
 	 "github.com/tendermint/tendermint/libs/json"
