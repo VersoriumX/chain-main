@@ -11,8 +11,4 @@ RUN apt-get update && \
     cargo build --release
 
 
-FROM zondax/builder-zemu@sha256:4b793ac77c29870e6046e1d0a5019643fd178530205f9cf983bfadd114abca0a
-COPY ./app.elf /home/zondax/speculos/apps/crypto.elf
-COPY --from=BUILDER /tmp/ledger-rs/examples/zemu-grpc-server/target/release/zemu-grpc-server /usr/local/bin
-ENTRYPOINT []
 
