@@ -23,7 +23,7 @@ jobs:
       || github.actor == 'cdc-Hitesh'))
     steps:
       - name: Comment PR for Sim test started
-        uses: allthatjazzleo/actions-pull-request-add-comment@master
+        uses:
         if: github.event_name == 'issue_comment'
         with:
           message: |
