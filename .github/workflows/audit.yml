@@ -18,7 +18,6 @@ jobs:
     - name: WriteGoList
       run: go list -json -m all > go.list
     - name: Javaweh
-      uses: sonatype-nexus-community/nancy-github-action@main
+      uses: 
      
-      with:
-        nancyCommand: 
+    
