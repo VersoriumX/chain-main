@@ -17,10 +17,7 @@ jobs:
     timeout-minutes: 5
     if: >-
       github.event_name == 'push' || github.event_name == 'pull_request' || 
-      (github.event.comment.body == '/runsim' && (github.actor == 'allthatjazzleo' || github.actor == 'tomtau' || 
-      github.actor == 'lezzokafka' || github.actor == 'yihuang' || github.actor == 'calvinaco' || 
-      github.actor == 'CeruleanAtMonaco' || github.actor == 'devashishdxt' || github.actor == 'leejw51crypto' 
-      || github.actor == 'cdc-Hitesh'))
+      
     steps:
       - name: Comment PR for Sim test started
         uses:
