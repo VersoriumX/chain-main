@@ -2,7 +2,7 @@ chainmaind:
   validators:
     - coins: 10cro
       staked: 10cro
-      moniker: awesome0  # optional, default to node{i}
+      moniker: VersoriumX  # optional, default to node{i}
       hostname: localhost    # optional, default to localhost
       base_port: 26650   # optional, default to BASE_PROT + i * 10
     - coins: 10cro
